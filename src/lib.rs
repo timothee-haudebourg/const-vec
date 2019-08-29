@@ -20,7 +20,7 @@ impl<T> ConstVec<T> {
     }
 
     pub fn capacity(&self) -> usize {
-        self.buf.cap()
+        self.buf.capacity()
     }
 
     pub fn len(&self) -> usize {
@@ -44,7 +44,7 @@ impl<T> ConstVec<T> {
     }
 
     pub fn push(&self, value: T) {
-        if self.len() == self.buf.cap() {
+        if self.len() == self.buf.capacity() {
             panic!("not enough space!")
         }
         unsafe {
