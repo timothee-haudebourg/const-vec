@@ -1,9 +1,9 @@
 # Const Vec
 
-[![CI](https://github.com/timothee-haudebourg/iref/workflows/Continuous%20Integration/badge.svg)](https://github.com/timothee-haudebourg/iref/actions)
-[![Crate informations](https://img.shields.io/crates/v/iref.svg?style=flat-square)](https://crates.io/crates/iref)
-[![License](https://img.shields.io/crates/l/iref.svg?style=flat-square)](https://github.com/timothee-haudebourg/iref#license)
-[![Documentation](https://img.shields.io/badge/docs-latest-blue.svg?style=flat-square)](https://docs.rs/iref)
+[![CI](https://github.com/timothee-haudebourg/const-vec/workflows/Continuous%20Integration/badge.svg)](https://github.com/timothee-haudebourg/const-vec/actions)
+[![Crate informations](https://img.shields.io/crates/v/const-vec.svg?style=flat-square)](https://crates.io/crates/const-vec)
+[![License](https://img.shields.io/crates/l/const-vec.svg?style=flat-square)](https://github.com/timothee-haudebourg/const-vec#license)
+[![Documentation](https://img.shields.io/badge/docs-latest-blue.svg?style=flat-square)](https://docs.rs/const-vec)
 
 <!-- cargo-rdme start -->
 
