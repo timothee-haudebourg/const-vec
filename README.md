@@ -1,28 +1,30 @@
 # Const Vec
 
-<table><tr>
-  <td><a href="https://docs.rs/const-vec">Documentation</a></td>
-  <td><a href="https://crates.io/crates/const-vec">Crate informations</a></td>
-  <td><a href="https://github.com/timothee-haudebourg/const-vec">Repository</a></td>
-</tr></table>
+[![CI](https://github.com/timothee-haudebourg/iref/workflows/Continuous%20Integration/badge.svg)](https://github.com/timothee-haudebourg/iref/actions)
+[![Crate informations](https://img.shields.io/crates/v/iref.svg?style=flat-square)](https://crates.io/crates/iref)
+[![License](https://img.shields.io/crates/l/iref.svg?style=flat-square)](https://github.com/timothee-haudebourg/iref#license)
+[![Documentation](https://img.shields.io/badge/docs-latest-blue.svg?style=flat-square)](https://docs.rs/iref)
 
-Provide a `Vec`-like structure where elements can be pushed to the vector
-in an immutable way (as long as the capacity of the vector is large enough).
+<!-- cargo-rdme start -->
+
+This library provides a `Vec`-like data structure called `ConstVec` where
+elements can be pushed to the array in an immutable way as long as the
+capacity of the vector is large enough).
+
+## Example
 
 ```rust
-extern crate const_vec;
-
 use const_vec::ConstVec;
 
-fn main() {
-    // Create a new empty ConstVec of capacity 10.
-    // Note that it is NOT mutable.
-    let vec = ConstVec::new(10);
+// Create a new empty `ConstVec` with a capacity of 10 items.
+// Note that it is NOT mutable.
+let vec = ConstVec::new(10);
 
-    // Add a new element in `vec`, without mutating it.
-    vec.push(42);
-}
+// Add a new element in `vec`, without mutating it.
+vec.push(42);
 ```
+
+<!-- cargo-rdme end -->
 
 ## License
 
